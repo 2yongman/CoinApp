@@ -22,7 +22,7 @@ const CoinList = styled.ul``;
 
 const Coin = styled.li`
   background-color: white;
-  color: ${props => props.theme.bgColor};
+  color: ${props => props.theme.textColor};
   margin-bottom: 10px;
   border-radius: 10px;
   &:hover {
